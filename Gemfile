@@ -175,3 +175,4 @@ gem "sidekiq", "~> 6.0"
 # that you run into a merge conflict in the future.
 
 # 🚅 super scaffolding will insert new oauth providers above this line.
+gem "redis-namespace"
