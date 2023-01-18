@@ -458,6 +458,8 @@ GEM
     rainbow (3.1.1)
     rake (13.0.6)
     redis (4.8.0)
+    redis-namespace (1.10.0)
+      redis (>= 4)
     regexp_parser (2.6.1)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -616,6 +618,7 @@ DEPENDENCIES
   rails_autoscale_agent
   rails_best_practices
   redis (~> 4.0)
+  redis-namespace
   rqrcode
   selenium-webdriver
   sentry-rails
