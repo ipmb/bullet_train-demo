@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  Healthcheck.routes(self)
   # See `config/routes/*.rb` to customize these configurations.
   draw "concerns"
   draw "devise"
