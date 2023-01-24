@@ -176,3 +176,4 @@ gem "sidekiq", "~> 6.0"
 
 # 🚅 super scaffolding will insert new oauth providers above this line.
 gem "redis-namespace"
+gem "sqlite3"

@@ -83,4 +83,8 @@ production:
   database: bullet_train_apppack_demo_production
   username: bullet_train_apppack_demo
   password: <%= ENV['BULLET_TRAIN_APPPACK_DEMO_DATABASE_PASSWORD'] %>
+  <% if ENV["CI"] %>
+  url: "sqlite3::memory:"
+  <% else %>
   url: <%= ENV['DATABASE_URL'] %>
+  <% end %>
